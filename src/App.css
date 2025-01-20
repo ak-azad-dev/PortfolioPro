@@ -1,0 +1,135 @@
+/* General Layout */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Hero Section (Black Background) */
+.portfolio-hero-section {
+  background-color: #080808;
+  padding: 60px 50px;
+  text-align: center;
+}
+
+.portfolio-header-icon {
+  background-color: transparent !important;
+}
+
+.portfolio-header-menu {
+  color: #ffffff;
+}
+
+.ant-menu-horizontal .ant-menu-item-selected {
+  background-color: transparent !important; /* Change active menu item's background */
+  color: #62ba1b !important; /* Active menu item's text color */
+  font-weight: bolder;
+}
+
+.portfolio-row {
+  margin: 0 auto;
+  width: 1020px;
+  padding: 60px 20px;
+}
+
+.portfolio-title {
+  color: #ffffff !important;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.blinking-cursor {
+  display: inline-block;
+  width: 1px;
+  background-color: black;
+  animation: blink 0.7s steps(1) infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.portfolio-intro {
+  color: #ffffff;
+  display: block;
+  font-size: 18px;
+  line-height: 1.8;
+  width: 90%;
+  word-wrap: break-word;
+  white-space: normal;
+  text-align: left;
+}
+
+/* Worked With Section (White Background) */
+.portfolio-worked-with {
+  margin: 0 auto;
+  width: 1020px;
+  padding: 0 20px;
+}
+
+.portfolio-worked-with-text {
+  color: #ffffff;
+  font-size: 15px;
+  display: block;
+  text-align: left;
+}
+
+.portfolio-company {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 60px;
+  border: 1px solid #555;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 14px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* case-study */
+.portfolio-case-study-section {
+  background-color: #080808;
+}
+
+.portfolio-case-study-title {
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.portfolio-case-study-intro {
+  color: #FFFFFF;
+  display: block;
+  font-size: 18px;
+  line-height: 1.8;
+  word-wrap: break-word;
+  white-space: normal;
+  text-align: center;
+}
+
+.portfolio-about-me-section{
+  background-color: #ffffff;
+}
+
+/* Target the custom carousel dots */
+.custom-carousel .slick-dots li button {
+  background: #62BA1B !important; /* Default dot color (blue) */
+  border-radius: 50%; /* Make sure the dots are circular */
+}
+
+.custom-carousel .slick-dots li.slick-active button {
+  background: #3F8E00 !important; /* Active dot color (orange) */
+}
+
+/* Optionally, adjust the size of the dots */
+.custom-carousel .slick-dots li button {
+  width: 12px;
+  height: 12px;
+}
+
+.custom-carousel .slick-dots {
+  bottom: 1px; /* Adjust spacing from the bottom */
+}
